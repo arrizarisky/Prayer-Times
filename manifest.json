@@ -5,11 +5,18 @@
   "manifest_version": 3,
   "author": "Arriza Risky",
   "icons": {
-    "16": "icon.png"
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
   },
   "action": {
     "default_popup": "index.html",
-    "default_title": "Latest Prayert Times"
+    "default_title": "Latest Prayert Times",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
   },
   "background": {
     "service_worker": "script.js"
