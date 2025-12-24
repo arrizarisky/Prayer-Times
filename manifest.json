@@ -4,6 +4,9 @@
   "description": "Reminder you for pray",
   "manifest_version": 3,
   "author": "Arriza Risky",
+  "icons": {
+    "16": "icon.png"
+  },
   "action": {
     "default_popup": "index.html",
     "default_title": "Latest Prayert Times"

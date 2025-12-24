@@ -94,7 +94,7 @@ function checkTimeForNotification() {
 function showNotification(prayerName) {
   chrome.notifications.create({
     type: "basic",
-    iconUrl: "icon.png", // Jangan lupa tambahkan icon di folder ekstensi
+    iconUrl: "icon.png",
     title: "Waktunya Sholat!",
     message: `Sekarang masuk waktu ${prayerName}.`,
     priority: 2,
@@ -141,6 +141,7 @@ document.addEventListener("DOMContentLoaded", () => {
   chrome.storage.local.get(["lat", "lon"], (result) => {
     if (result.lat && result.lon) {
       prayerTimes(result.lat, result.lon);
+      btn.style.display = "none";
     }
   });
 });
