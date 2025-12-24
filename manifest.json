@@ -8,5 +8,8 @@
     "default_popup": "index.html",
     "default_title": "Latest Prayert Times"
   },
-  "permissions": ["geolocation"]
+  "background": {
+    "service_worker": "script.js"
+  },
+  "permissions": ["geolocation", "alarm", "notifications", "storage"]
 }
