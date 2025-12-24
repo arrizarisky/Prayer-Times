@@ -1,0 +1,96 @@
+:root {
+  --yellow: #ffde00;
+  --orange: #ff5c00;
+  --blue: #00e0ff;
+  --pink: #ffc7ff;
+  --black: #000;
+  --white: #fff;
+  --border: 4px;
+  --shadow: 6px;
+}
+
+/* === POPUP BASE === */
+body {
+  margin: 0;
+  width: 360px;
+  height: auto;
+  background: var(--yellow);
+  font-family: "Press Start 2P", monospace;
+  color: var(--black);
+}
+
+/* === WINDOW STYLE === */
+#app {
+  margin: 12px;
+  background: var(--white);
+  border: var(--border) solid var(--black);
+  box-shadow: var(--shadow) var(--shadow) 0 var(--black);
+  padding: 12px;
+}
+
+/* === HEADER / TITLE BAR === */
+.title-bar {
+  background: var(--orange);
+  border: var(--border) solid var(--black);
+  box-shadow: 4px 4px 0 var(--black);
+  padding: 8px;
+  text-align: center;
+  font-size: 10px;
+  margin-bottom: 12px;
+  transform: rotate(-1.5deg);
+}
+
+/* === TABLE === */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 9px;
+}
+
+th,
+td {
+  border: var(--border) solid var(--black);
+  padding: 8px 6px;
+}
+
+th {
+  background: var(--blue);
+  text-align: left;
+}
+
+td.time {
+  text-align: right;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+tr:hover {
+  background: var(--pink);
+}
+
+/* === FOOTER STATUS === */
+.status-bar {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 8px;
+}
+
+.badge {
+  background: var(--black);
+  color: var(--white);
+  padding: 4px 6px;
+  border: 2px solid var(--black);
+  margin-bottom: 5px;
+}
+
+#getLocation {
+  background: var(--black);
+  color: var(--white);
+  padding: 4px 6px;
+  border: 2px solid var(--black);
+  font-family: "Press Start 2P", monospace;
+}

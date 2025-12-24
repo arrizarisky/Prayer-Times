@@ -1,13 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Prayer Times</title>
-  </head>
-  <body>
-    <div id="app"></div>
+    <title>Pixel Prayer Times</title>
 
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <div class="title-bar">PRAYER TIMES</div>
+
+      <table id="table">
+        <thead>
+          <tr>
+            <th>Waktu</th>
+            <th>Jam</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody">
+          <!-- <tr>
+            <td>Subuh</td>
+            <td class="time">04:32</td>
+          </tr>
+          <tr>
+            <td>Dzuhur</td>
+            <td class="time">12:05</td>
+          </tr>
+          <tr>
+            <td>Ashar</td>
+            <td class="time">15:20</td>
+          </tr>
+          <tr>
+            <td>Maghrib</td>
+            <td class="time">18:12</td>
+          </tr>
+          <tr>
+            <td>Isya</td>
+            <td class="time">19:24</td>
+          </tr> -->
+        </tbody>
+      </table>
+
+      <div class="status-bar">
+        <span class="badge">READY</span>
+        <span class="badge">v1.0</span>
+      </div>
+      <button id="getLocation">Dapatkan Lokasi</button>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
