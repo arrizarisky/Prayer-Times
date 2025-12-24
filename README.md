@@ -1,4 +1,4 @@
-# 🕌 Pixel Prayer Times Extension
+# 🕌 Prayer Times Extension
 
 ![Style: Neobrutalism](https://img.shields.io/badge/Style-Neobrutalism-FF5C00?style=for-the-badge)
 ![Font: Pixel](https://img.shields.io/badge/Font-Press_Start_2P-00E0FF?style=for-the-badge)
